@@ -2,7 +2,7 @@ import React,{useContext} from 'react';
 import { counterContext } from '../counterContext';
 import { Counter } from './Counter';
 
-export const CounterList = (counterContext) =>{
+export const CounterList = () =>{
 
     const {count,setCount} = useContext(counterContext)
 
